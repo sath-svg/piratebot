@@ -20,7 +20,7 @@ logger = logging.getLogger(__name__)
 
 TOKEN = os.getenv("BOT_TOKEN")
 USERS_FILE = "users.json"
-REMINDER_INTERVAL_HOURS = 2
+REMINDER_INTERVAL_HOURS = 0.083  # ~5 minutes, for testing
 
 PIRATE_REMINDERS = [
     # --- Classic pirate reminders ---
