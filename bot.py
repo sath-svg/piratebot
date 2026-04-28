@@ -23,13 +23,47 @@ USERS_FILE = "users.json"
 REMINDER_INTERVAL_HOURS = 2
 
 PIRATE_REMINDERS = [
-    "☠️ Ahoy, matey! Time to put yer eyedrops in! A pirate with dry eyes can't spot treasure on the horizon! 🏴‍☠️",
-    "🦜 Squawk! The parrot says: DROP yer eyedrops in NOW, ye landlubber! Yer eyes be drier than the Sahara desert! 💧",
-    "⚓ Arrr! Cap'n orders say it be time fer yer eyedrops! Don't make me walk ye off the plank, do it NOW! 🌊",
-    "🗺️ X marks the spot — and that spot be yer eyeballs! Time to treasure yer peepers with some drops, pirate! 💎",
-    "🏴‍☠️ Ahoy! The Jolly Roger flies high to remind ye: EYEDROPS O'CLOCK! Keep those sea-faring eyes moistened! ⚔️",
-    "💀 Blimey! Two hours have passed on the seven seas! Your eyes be craving their liquid gold — eyedrops, matey! 🌊",
-    "🦅 By Davy Jones' locker! A good pirate takes care of their eyes. PUT. THOSE. DROPS. IN. NOW. Arrrr! 🔭",
+    # --- Classic pirate reminders ---
+    "☠️ Ahoy, Nushie Sushie! EYEDROPS O'CLOCK! A pirate with dry eyes can't spot treasure on the horizon! DROP 'EM IN! 🏴‍☠️💧",
+    "🦜 Squawk! The parrot says: Aanoushka, put yer eyedrops in RIGHT NOW, ye scallywag! Yer eye be drier than the Sahara! 💧",
+    "⚓ Arrr! Cap'n's orders, Aanoushka — EYEDROPS NOW! Don't make me walk ye off the plank! 🌊",
+    "🗺️ X marks the spot — and that spot be yer eyeball, Nushie! Treasure yer peepers with some drops! 💎",
+    "🏴‍☠️ The Jolly Roger flies to remind ye, Aanoushka: two hours have passed on the seven seas! EYEDROPS IN! ⚔️",
+    "💀 Blimey, Aanoushka! Yer eye be craving its liquid gold! Put those drops in before Davy Jones comes fer ye! 🌊",
+    "🦅 By Davy Jones' locker, Aanoushka! A good pirate takes care of their eye. PUT. THOSE. DROPS. IN. Arrrr! 🔭",
+
+    # --- Eye patch puns ---
+    "🏴‍☠️ Nushie! Yer famous eye patch won't keep yer eye moist! Only EYEDROPS can do that! Drop 'em in NOW! 👁️💧",
+    "👁️ Arrr, Aanoushka! Even the bravest one-eyed pirates need their drops! Yer one working eye deserves the best! 💧☠️",
+    "🩹 Blimey, Aanoushka! That bandage be lookin' mighty fine, but the eye underneath still needs its drops! GO ON, DO IT! 👁️🏴‍☠️",
+    "⚓ Ahoy! Aanoushka the One-Eyed Terror of the Seven Seas! Yer legendary eye needs its drops — PUT THEM IN NOW! 👁️💧",
+    "💀 Aanoushka! Ye only have one eye on active duty — ye CANNOT afford to let it get dry! EYEDROPS IMMEDIATELY! 👁️🌊",
+    "🩹 The seas be harsh, Aanoushka! Yer bandage protects one side, but only drops protect the other! DO IT! 💧🦜",
+    "👁️ Arrr, Nushie! A pirate's eye patch is legendary — but a pirate's dry eye? That be a TRAGEDY! Drops in! 💧☠️",
+    "🔭 Aanoushka! How can ye spot enemy ships with a DRY EYE?! One eye, one chance — DROPS NOW! 👁️🏴‍☠️",
+    "🏴‍☠️ Nushie! The greatest pirates always moistened their eyes! Well... at least the smart ones did! DROPS! 👁️💧",
+
+    # --- Muffin the dog reminders ---
+    "🐶 Woof woof! Even Muffin is concerned about yer dry eye, Aanoushka! She's been staring at ye waiting for ye to put yer drops in! DO IT FOR MUFFIN! 💧🐾",
+    "🦴 Arrr! Muffin fetched yer eyedrops and dropped them at yer feet, Aanoushka! The least ye can do is USE THEM! 🐶💧",
+    "🐾 Shiver me timbers! Muffin has been a better pirate than ye today, Nushie — she reminded herself to nap AND drink water! Now YOU do yer eyedrops! 🐶💧",
+    "🐶 Muffin says: *woof woof woof* — which in dog pirate means PUT YER EYEDROPS IN RIGHT NOW, AANOUSHKA! 🏴‍☠️💧",
+    "🦴 Even Muffin knows that a good pirate takes care of their eyes, Aanoushka! She's judging ye right now. Those big puppy eyes are full of disappointment. DROPS. IN. 🐶👁️💧",
+
+    # --- Ekansh / "Ek" = One puns ---
+    "⚔️ Arrr, Aanoushka! Yer brother Ekansh means *ek* — ONE in Hindi — and ye've got EK eye available right now! Don't waste it on dryness! EYEDROPS! 👁️💧",
+    "💀 Ekansh has TWO eyes and still takes care of them. Ye have *ek* eye in service, Nushie — yer own brother would be embarrassed! DROPS NOW! 👁️🏴‍☠️",
+    "🏴‍☠️ *Ek* eye. ONE eye. That's all ye've got right now, Aanoushka! Even yer brother Ekansh — Mr. *Ek* himself — would tell ye to put yer drops in! 💧👁️",
+    "🦜 Squawk! Even yer younger brother Ekansh called from across the seven seas — little *ek* says: \"Nushie, *ek* aankhon ka khayal rakho!\" Take care of yer ONE eye! DROPS! 👁️💧",
+    "⚓ Arrr! Ek means ONE, Aanoushka! Like yer one unbandaged eye! Like the ONE thing yer little brother Ekansh has been telling ye to do — EYEDROPS! 💧👁️",
+
+    # --- Funny/dramatic ---
+    "🌊 AANOUSHKA! The ocean herself is CRYING for ye to put yer eyedrops in! Don't make the ocean sad! 💧😭",
+    "🦜 Squawk! Nushie Sushie hasn't put her eyedrops in! SQUAWK! Muffin knows! The whole crew knows! PUT THEM IN! SQUAWK! 🦜🐶💧",
+    "💀 The ghost of every pirate who forgot their eyedrops is haunting me, Nushie. Don't join them. DROPS. NOW. 👻💧",
+    "⚓ Aanoushka! I've checked the ship's log — it's been 2 hours since yer last eyedrops! This is a MARITIME EMERGENCY! 🚨💧",
+    "🏴‍☠️ AANOUSHKA! If ye were on my ship and forgot yer eyedrops, ye'd be scrubbin' the poop deck for a WEEK! DROP 'EM IN! 💧☠️",
+    "☠️ Aanoushka, ye mighty pirate queen! Muffin is watching, little Ekansh is watching, and I am watching. PUT THOSE EYEDROPS IN. NOW. 👑💧🐶",
 ]
 
 reminder_index = 0
