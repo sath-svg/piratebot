@@ -23,47 +23,71 @@ USERS_FILE = "users.json"
 REMINDER_INTERVAL_HOURS = 2
 
 PIRATE_REMINDERS = [
-    # --- Classic pirate reminders ---
-    "☠️ Ahoy, Nushie Sushie! EYEDROPS O'CLOCK! A pirate with dry eyes can't spot treasure on the horizon! DROP 'EM IN! 🏴‍☠️💧",
-    "🦜 Squawk! The parrot says: Aanoushka, put yer eyedrops in RIGHT NOW, ye scallywag! Yer eye be drier than the Sahara! 💧",
-    "⚓ Arrr! Cap'n's orders, Aanoushka — EYEDROPS NOW! Don't make me walk ye off the plank! 🌊",
-    "🗺️ X marks the spot — and that spot be yer eyeball, Nushie! Treasure yer peepers with some drops! 💎",
-    "🏴‍☠️ The Jolly Roger flies to remind ye, Aanoushka: two hours have passed on the seven seas! EYEDROPS IN! ⚔️",
-    "💀 Blimey, Aanoushka! Yer eye be craving its liquid gold! Put those drops in before Davy Jones comes fer ye! 🌊",
-    "🦅 By Davy Jones' locker, Aanoushka! A good pirate takes care of their eye. PUT. THOSE. DROPS. IN. Arrrr! 🔭",
+    # --- Lawyer ---
+    "⚖️ Objection, yer honour! My client Aanoushka has FAILED to apply eyedrops within the 2-hour statute of limitations! The prosecution rests. PUT 'EM IN, NUSHIE!",
+    "📜 As yer legal counsel, I hereby serve ye notice: failure to apply eyedrops constitutes negligence of the highest order. Ye have no defence. EYEDROPS NOW, COUNSELLOR!",
+    "⚖️ Arraignment time, Aanoushka! ONE count of eyedrop neglect. TWO hours without moisture. THREE degrees of dryness. How do ye plead? GUILTY. Sentence: eyedrops, immediately, no appeals!",
+    "📜 Blimey! Motion to compel Aanoushka to administer eyedrops — GRANTED. Do it NOW, Nushie. The court will not repeat itself.",
+    "⚖️ Sustained! The pirate court finds ye guilty of chronic eye dryness. Sentence: eyedrops, applied immediately. No appeals. No continuances. DO IT.",
+    "📜 Pro bono advice from yer pirate lawyer: dry eyes be a tort waiting to happen. Apply eyedrops NOW before I file suit against ye for self-neglect!",
+    "⚖️ Counsel, approach the bench. The bench has reviewed yer eye hydration records. The bench is NOT pleased. EYEDROPS, administered immediately, in the presence of the court.",
+    "☠️ Ye argue cases for a living, Nushie Sushie. Ye cannot argue with DRY EYES. The only remedy: EYEDROPS. Motion carries. Court dismissed.",
 
-    # --- Eye patch puns ---
-    "🏴‍☠️ Nushie! Yer famous eye patch won't keep yer eye moist! Only EYEDROPS can do that! Drop 'em in NOW! 👁️💧",
-    "👁️ Arrr, Aanoushka! Even the bravest one-eyed pirates need their drops! Yer one working eye deserves the best! 💧☠️",
-    "🩹 Blimey, Aanoushka! That bandage be lookin' mighty fine, but the eye underneath still needs its drops! GO ON, DO IT! 👁️🏴‍☠️",
-    "⚓ Ahoy! Aanoushka the One-Eyed Terror of the Seven Seas! Yer legendary eye needs its drops — PUT THEM IN NOW! 👁️💧",
-    "💀 Aanoushka! Ye only have one eye on active duty — ye CANNOT afford to let it get dry! EYEDROPS IMMEDIATELY! 👁️🌊",
-    "🩹 The seas be harsh, Aanoushka! Yer bandage protects one side, but only drops protect the other! DO IT! 💧🦜",
-    "👁️ Arrr, Nushie! A pirate's eye patch is legendary — but a pirate's dry eye? That be a TRAGEDY! Drops in! 💧☠️",
-    "🔭 Aanoushka! How can ye spot enemy ships with a DRY EYE?! One eye, one chance — DROPS NOW! 👁️🏴‍☠️",
-    "🏴‍☠️ Nushie! The greatest pirates always moistened their eyes! Well... at least the smart ones did! DROPS! 👁️💧",
+    # --- Muffin (good boy, male) ---
+    "🐶 Muffin reporting live from the sofa. He ate his dinner on time. He drank his water on time. He is a GOOD BOY. Be more like Muffin. EYEDROPS NOW.",
+    "🦴 Muffin has fetched yer eyedrops, Nushie. He dropped them at yer feet. He is staring at ye with his big boy eyes. Don't make him sad. PUT THEM IN.",
+    "🐶 MUFFIN BULLETIN: He just barked twice. That means 'eyedrops, ye scurvy human.' He will not stop barking. He NEVER stops. Only remedy: comply.",
+    "🦴 Muffin: fed. Muffin: walked. Muffin: loved. Aanoushka's eyes: parched and neglected. One of these things is wrong. FIX IT.",
+    "🐶 Arrr! Muffin be a loyal first mate and he DEMANDS ye moisturise yer peepers. He sat. He stayed. He fetched. NOW YE DROP. EYEDROPS, NUSHIE!",
+    "🦴 Muffin filed a legal brief. A PROPER legal brief. He paw-signed it. Requesting immediate eyedrop administration. The court accepted it. COMPLY, COUNSELLOR.",
+    "🐶 Muffin is watching ye, Aanoushka. He has no concept of the law. He has no concept of pirate ships. But he KNOWS ye haven't done yer drops. Good boys always know. DO IT.",
 
-    # --- Muffin the dog reminders ---
-    "🐶 Woof woof! Even Muffin is concerned about yer dry eye, Aanoushka! She's been staring at ye waiting for ye to put yer drops in! DO IT FOR MUFFIN! 💧🐾",
-    "🦴 Arrr! Muffin fetched yer eyedrops and dropped them at yer feet, Aanoushka! The least ye can do is USE THEM! 🐶💧",
-    "🐾 Shiver me timbers! Muffin has been a better pirate than ye today, Nushie — she reminded herself to nap AND drink water! Now YOU do yer eyedrops! 🐶💧",
-    "🐶 Muffin says: *woof woof woof* — which in dog pirate means PUT YER EYEDROPS IN RIGHT NOW, AANOUSHKA! 🏴‍☠️💧",
-    "🦴 Even Muffin knows that a good pirate takes care of their eyes, Aanoushka! She's judging ye right now. Those big puppy eyes are full of disappointment. DROPS. IN. 🐶👁️💧",
+    # --- Ekansh / EGGYBOI ---
+    "⚔️ Ekansh = Ek = ONE in Hindi. Ye have TWO eyes and tend to NONE. ONE drop per eye, RIGHT NOW, Aanoushka — for Ek!",
+    "🏴‍☠️ Yer brother Ekansh called. He said — and I quote — 'has she done her drops?' He KNEW. Brothers always know. Don't embarrass yerself. DO IT.",
+    "⚔️ Ekansh manages to live his whole life as EK — ONE — without complaint. Ye have two eyes and can't water them twice a day. Disgraceful. EYEDROPS. NOW.",
+    "🦜 Squawk! Ekansh be ek — the ONE sibling with common sense! He would NEVER forget if he had yer condition. Put 'em IN, Nushie! Honour yer family!",
+    "⚔️ Ek-ansh. ONE part. ONE eye's worth of sense between ye. That one part says: EYEDROPS. Listen to Ek. He knows things. DROPS IN, NUSHIE!",
+    "🥚 Arrr! Even EGGYBOI 🥚 — the one, the only, the legendary Ekansh — is rooting for ye to remember yer drops! He believes in ye, Nushie! DON'T LET EK DOWN! DON'T LET EGGYBOI DOWN!",
 
-    # --- Ekansh / "Ek" = One puns ---
-    "⚔️ Arrr, Aanoushka! Yer brother Ekansh means *ek* — ONE in Hindi — and ye've got EK eye available right now! Don't waste it on dryness! EYEDROPS! 👁️💧",
-    "💀 Ekansh has TWO eyes and still takes care of them. Ye have *ek* eye in service, Nushie — yer own brother would be embarrassed! DROPS NOW! 👁️🏴‍☠️",
-    "🏴‍☠️ *Ek* eye. ONE eye. That's all ye've got right now, Aanoushka! Even yer brother Ekansh — Mr. *Ek* himself — would tell ye to put yer drops in! 💧👁️",
-    "🦜 Squawk! Even yer younger brother Ekansh called from across the seven seas — little *ek* says: \"Nushie, *ek* aankhon ka khayal rakho!\" Take care of yer ONE eye! DROPS! 👁️💧",
-    "⚓ Arrr! Ek means ONE, Aanoushka! Like yer one unbandaged eye! Like the ONE thing yer little brother Ekansh has been telling ye to do — EYEDROPS! 💧👁️",
+    # --- Foxy (boot protector) ---
+    "🦊 Foxy the boot protector has ONE job: protect the boots. Foxy does it EVERY SINGLE DAY without fail. Ye have one job: eyedrops. Ye forget every 2 hours. Foxy judges ye, Aanoushka.",
+    "🦊 Cap'n Foxy's Log, Day 47: still guarding the boots. Still doing the job. Still watching Nushie forget her eyedrops. Foxy is tired. Foxy is SAD. DROPS. NOW. For Foxy.",
+    "🦊 Foxy sits on yer boots every day keeping them safe — rain, mud, scuff, all of it. Foxy never takes a break. Foxy never forgets. A BOOT PROTECTOR has more discipline than ye. DO IT.",
+    "🦊 FOXY SPEAKS: 'I protect the boots. I ask nothing in return. I ask ONE thing: eyedrops. Please, Aanoushka. For the boots. For me. For us all.' — Foxy 🦊",
+    "🦊 Foxy guards yer boots faithfully, Nushie Sushie. Yer boots are safe. Yer feet are safe. Yer EYES meanwhile are PARCHED and unprotected. Foxy cannot protect eyes. Only ye can. DO IT.",
+    "🦊 Foxy's full report on Aanoushka's eyedrop compliance: 'No.' Boots: protected. Eyes: dry and abandoned. Fix yer priorities. PUT THE DROPS IN.",
 
-    # --- Funny/dramatic ---
-    "🌊 AANOUSHKA! The ocean herself is CRYING for ye to put yer eyedrops in! Don't make the ocean sad! 💧😭",
-    "🦜 Squawk! Nushie Sushie hasn't put her eyedrops in! SQUAWK! Muffin knows! The whole crew knows! PUT THEM IN! SQUAWK! 🦜🐶💧",
-    "💀 The ghost of every pirate who forgot their eyedrops is haunting me, Nushie. Don't join them. DROPS. NOW. 👻💧",
-    "⚓ Aanoushka! I've checked the ship's log — it's been 2 hours since yer last eyedrops! This is a MARITIME EMERGENCY! 🚨💧",
-    "🏴‍☠️ AANOUSHKA! If ye were on my ship and forgot yer eyedrops, ye'd be scrubbin' the poop deck for a WEEK! DROP 'EM IN! 💧☠️",
-    "☠️ Aanoushka, ye mighty pirate queen! Muffin is watching, little Ekansh is watching, and I am watching. PUT THOSE EYEDROPS IN. NOW. 👑💧🐶",
+    # --- Broken shoulder ---
+    "☠️ Arrr! Even with a BROKEN SHOULDER, yer faithful messenger has fought through the pain to send ye this reminder. The LEAST ye can do is put yer eyedrops in. THE LEAST.",
+    "🏴‍☠️ One shoulder: broken. One mission: remind Aanoushka about eyedrops. Sacrifice accepted. Do NOT make this suffering be in vain. EYEDROPS. NOW. Honour the shoulder.",
+    "⚓ A pirate with a BROKEN SHOULDER still sends ye reminders. A lawyer with two working arms cannot manage eyedrops. The court notes this irony. FIX IT.",
+    "☠️ Typing this with one good arm because the other be BROKEN, Nushie. Ye BETTER put yer eyedrops in or this sacrifice means NOTHING. I HAVE ONE ARM. DO IT.",
+    "🦜 SQUAWK! Broken shoulder pirate here! Still sending reminders! Much pain! Very dedication! Ye owe me ONE eyedrop application RIGHT NOW, Aanoushka!",
+    "⚓ One broken shoulder. Infinite dedication to yer eye health. Ye have zero broken shoulders and zero reasons not to put yer drops in. DO IT NOW, NUSHIE.",
+
+    # --- Crossover ---
+    "🏴‍☠️ Ship's council vote: Muffin — eyedrops NOW. Eggyboi Ekansh 🥚 — eyedrops NOW. Foxy the boot protector — eyedrops NOW. Motion CARRIED. Three to zero. Comply immediately, Cap'n Nushie.",
+    "⚖️ People vs. Aanoushka's Eyedrops. Exhibit A: Muffin looking sad. Exhibit B: two parched eyes. Verdict: GUILTY. Sentence: eyedrops, immediate. No further argument accepted.",
+    "🦊 Foxy and Eggyboi Ekansh 🥚 have formed an alliance. Combined IQ: enormous. Combined patience for Nushie's eyedrop delays: ZERO. They both say: DO IT NOW.",
+    "⚖️ As yer legal rep AND boot-protection consultant — Foxy handles the boot side — we jointly advise: the statute of eye dryness has EXPIRED. EYEDROPS. No further correspondence will be entered into.",
+    "🦴 Muffin fetched the drops. Eggyboi Ekansh 🥚 held the door open. Foxy guarded the boots. Broken shoulder pirate sent this message. EVERYTHING IS IN PLACE, AANOUSHKA. PUT. THEM. IN.",
+
+    # --- Classic pirate / dramatic ---
+    "💀 Two hours. In that time, empires rose, ships sailed, Muffin probably ate something he shouldn't. But no eyedrops from Nushie Sushie. CORRECT THIS IMMEDIATELY.",
+    "🌊 The seven seas weep for ye, Aanoushka! The ocean herself — moistest thing alive — is EMBARRASSED by yer dry eyes. FIX IT. Now.",
+    "☠️ EMERGENCY BROADCAST: Aanoushka's eyes have filed a formal complaint. They are dry, neglected, and considering leaving her face. Remedy: EYEDROPS. NOW.",
+    "🦜 The parrot has learned one phrase: 'Nushie, eyedrops!' It screams this constantly. The ONLY way to silence it: COMPLY. Put the drops in.",
+    "💀 Every minute without eyedrops, another pirate ghost materialises on this ship. There be fourteen of 'em now, Aanoushka. ALL staring at ye. DROPS.",
+    "🏴‍☠️ Avast! Yer eyes be drier than the Sahara, crustier than old hardtack, and sadder than a pirate with no rum. EYEDROPS. IMMEDIATE. No excuses.",
+    "⚓ Ship's log: last eyedrops 2 hours ago. The crew is restless. The parrot is screaming. Muffin is whimpering. Foxy is judging. EVERYONE needs ye to put the drops in.",
+    "☠️ Yer eyes have called a press conference. Statement: 'We are dry. We are tired. Our human is a LAWYER and STILL argues against us.' Drop the case. DROP THE DROPS. NOW.",
+    "💀 Davy Jones checked his locker. It is MOISTER than Aanoushka's eyes. He is personally offended. He demands immediate remediation. EYEDROPS, NUSHIE. For Davy.",
+    "🏴‍☠️ The Jolly Roger flies at half-mast. Not for a fallen pirate. For yer DRY EYES, Nushie Sushie. Raise the flag by raising the drops. INTO YER EYEBALLS. NOW.",
+    "⚓ I've sent this reminder across seas, through storms, with a broken shoulder. Ye have a bottle of eyedrops within arm's reach. ONE of us is putting in effort. IT'S NOT YE.",
+    "🌊 AANOUSHKA! The ocean herself weeps enough to hydrate everyone EXCEPT ye! Yer own eyes be the driest spot on earth! UNACCEPTABLE! DROPS! NOW! ALWAYS!",
+    "☠️ X marks the spot — it's yer eyeball, Nushie. That be where the treasure goes. The LIQUID treasure. In the BOTTLE. Into YER EYE. This is not complicated. DO IT.",
+    "💀 Scientists confirm: Aanoushka's eyes can survive 2 hours without drops. They do NOT recommend it. They are tired of confirming it. SO VERY TIRED. DROPS. NOW.",
 ]
 
 reminder_index = 0
