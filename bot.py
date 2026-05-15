@@ -1,6 +1,7 @@
 import os
 import json
 import logging
+import random
 from datetime import datetime
 from dotenv import load_dotenv
 from telegram import Update
@@ -21,6 +22,12 @@ logger = logging.getLogger(__name__)
 TOKEN = os.getenv("BOT_TOKEN")
 USERS_FILE = "users.json"
 REMINDER_INTERVAL_HOURS = 2
+IMAGES_DIR = os.path.join(os.path.dirname(__file__), "images")
+IMAGE_FILES = [
+    os.path.join(IMAGES_DIR, f)
+    for f in os.listdir(IMAGES_DIR)
+    if f.lower().endswith((".jpg", ".jpeg", ".png", ".gif"))
+] if os.path.isdir(IMAGES_DIR) else []
 
 PIRATE_REMINDERS = [
     # --- Lawyer ---
@@ -176,9 +183,16 @@ async def send_reminders(context: ContextTypes.DEFAULT_TYPE):
     reminder_index += 1
 
     logger.info(f"Sending reminder to {len(users)} users.")
+    send_image = IMAGE_FILES and (reminder_index % 12 == 1)
+    image_path = random.choice(IMAGE_FILES) if send_image else None
+
     for chat_id in list(users):
         try:
-            await context.bot.send_message(chat_id=chat_id, text=message)
+            if image_path:
+                with open(image_path, "rb") as photo:
+                    await context.bot.send_photo(chat_id=chat_id, photo=photo, caption=message)
+            else:
+                await context.bot.send_message(chat_id=chat_id, text=message)
         except Exception as e:
             logger.warning(f"Failed to send to {chat_id}: {e}")
             # Remove users who blocked or deleted the bot
