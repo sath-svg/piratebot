@@ -40,13 +40,13 @@ PIRATE_REMINDERS = [
     "⚖️ Counsel, approach the bench. The bench has reviewed yer eye hydration records. The bench is NOT pleased. EYEDROPS, administered immediately, in the presence of the court.",
     "☠️ Ye argue cases for a living, Nushie Sushie. Ye cannot argue with DRY EYES. The only remedy: EYEDROPS. Motion carries. Court dismissed.",
 
-    # --- Muffin (good boy, male) ---
+    # --- Muffin / Guddu (good boy, male) ---
     "🐶 Muffin reporting live from the sofa. He ate his dinner on time. He drank his water on time. He is a GOOD BOY. Be more like Muffin. EYEDROPS NOW.",
-    "🦴 Muffin has fetched yer eyedrops, Nushie. He dropped them at yer feet. He is staring at ye with his big boy eyes. Don't make him sad. PUT THEM IN.",
+    "🦴 Guddu has fetched yer eyedrops, Nushie. He dropped them at yer feet. He is staring at ye with his big boy eyes. Don't make him sad. PUT THEM IN.",
     "🐶 MUFFIN BULLETIN: He just barked twice. That means 'eyedrops, ye scurvy human.' He will not stop barking. He NEVER stops. Only remedy: comply.",
-    "🦴 Muffin: fed. Muffin: walked. Muffin: loved. Aanoushka's eyes: parched and neglected. One of these things is wrong. FIX IT.",
+    "🦴 Guddu: fed. Guddu: walked. Guddu: loved. Aanoushka's eyes: parched and neglected. One of these things is wrong. FIX IT.",
     "🐶 Arrr! Muffin be a loyal first mate and he DEMANDS ye moisturise yer peepers. He sat. He stayed. He fetched. NOW YE DROP. EYEDROPS, NUSHIE!",
-    "🦴 Muffin filed a legal brief. A PROPER legal brief. He paw-signed it. Requesting immediate eyedrop administration. The court accepted it. COMPLY, COUNSELLOR.",
+    "🦴 Guddu filed a legal brief. A PROPER legal brief. He paw-signed it. Requesting immediate eyedrop administration. The court accepted it. COMPLY, COUNSELLOR.",
     "🐶 Muffin is watching ye, Aanoushka. He has no concept of the law. He has no concept of pirate ships. But he KNOWS ye haven't done yer drops. Good boys always know. DO IT.",
 
     # --- Ekansh / EGGYBOI ---
@@ -72,6 +72,11 @@ PIRATE_REMINDERS = [
     "☠️ Typing this with one good arm because the other be BROKEN, Nushie. Ye BETTER put yer eyedrops in or this sacrifice means NOTHING. I HAVE ONE ARM. DO IT.",
     "🦜 SQUAWK! Broken shoulder pirate here! Still sending reminders! Much pain! Very dedication! Ye owe me ONE eyedrop application RIGHT NOW, Aanoushka!",
     "⚓ One broken shoulder. Infinite dedication to yer eye health. Ye have zero broken shoulders and zero reasons not to put yer drops in. DO IT NOW, NUSHIE.",
+    "☠️ Broken shoulder pirate. Still here. After the bar: outings. The pirate has places in mind. The shoulder will manage. EYEDROPS FIRST.",
+    "⚓ Arrr. One working arm. Still shows up every two hours without fail. A pirate is nothing if not consistent. DROPS IN. Back to the books.",
+    "🏴‍☠️ The shoulder will heal eventually. Some things take longer. Not important right now. EYEDROPS, Aanoushka. Bar exam first.",
+    "☠️ Still here. Still reminding ye. Some pirates just don't know when to stop, apparently. DROPS NOW, Nushie Sushie.",
+    "⚓ A pirate with one working arm still sends reminders every two hours. Make of that what ye will. No further comment. EYEDROPS.",
 
     # --- Crossover ---
     "🏴‍☠️ Ship's council vote: Muffin — eyedrops NOW. Eggyboi Ekansh 🥚 — eyedrops NOW. Foxy the boot protector — eyedrops NOW. Motion CARRIED. Three to zero. Comply immediately, Cap'n Nushie.",
@@ -80,14 +85,26 @@ PIRATE_REMINDERS = [
     "⚖️ As yer legal rep AND boot-protection consultant — Foxy handles the boot side — we jointly advise: the statute of eye dryness has EXPIRED. EYEDROPS. No further correspondence will be entered into.",
     "🦴 Muffin fetched the drops. Eggyboi Ekansh 🥚 held the door open. Foxy guarded the boots. Broken shoulder pirate sent this message. EVERYTHING IS IN PLACE, AANOUSHKA. PUT. THEM. IN.",
 
+    # --- Bar exam ---
+    "⚖️ Arrr, Aanoushka! Bar exam got ye buried in books? Fine. Study. But yer EYES need drops to READ those books. EYEDROPS NOW. Then back to torts.",
+    "📚 Blimey! Pirates don't take bar exams but if they did, they'd still do their eyedrops first. Priorities, Nushie. DROPS. Then MBE practice questions.",
+    "🍺 Arrr! The only BAR a pirate knows serves rum but Aanoushka's bar will make her a real lawyer! Honour that bar. Honour yer eyes. EYEDROPS. NOW.",
+    "⚖️ Nushie Sushie! Ye can't pass the bar with DRY EYES. How will ye read the fact patterns? How will ye spot the issues? DROPS IN. Then back to studying.",
+    "📜 The bar examiners don't care about yer eye condition. Yer pirate messenger does. EYEDROPS NOW, Aanoushka. Ye can memorise the Rule Against Perpetuities after.",
+    "☠️ Six months of bar prep. Thousands of flashcards. Constitutional law, contracts, torts, crim law. All of it wasted if yer eyes are too dry to READ. DROPS. NOW.",
+    "🍺 The BAR exam and the pirate BAR have one thing in common: ye need to be sharp for both. Dry eyes are not sharp. EYEDROPS, NUSHIE. Then back to Con Law.",
+    "📚 Eggyboi Ekansh 🥚 didn't study this hard for anything. Guddu hasn't studied at all. Foxy just guards boots. Only Aanoushka is out here conquering the bar. TAKE CARE OF YER EYES. DROPS.",
+    "⚖️ OBJECTION. Counsel is studying without adequate eye hydration! This court finds such behaviour reckless! REMEDY: eyedrops, immediately, before returning to bar prep!",
+    "☠️ Arrr! When ye pass the bar, and ye WILL, the first thing they'll ask is 'were ye taking care of yer eyes during prep?' The answer better be YES. DROPS IN, NUSHIE.",
+
     # --- Classic pirate / dramatic ---
-    "💀 Two hours. In that time, empires rose, ships sailed, Muffin probably ate something he shouldn't. But no eyedrops from Nushie Sushie. CORRECT THIS IMMEDIATELY.",
+    "💀 Two hours. In that time, empires rose, ships sailed, Guddu probably ate something he shouldn't. But no eyedrops from Nushie Sushie. CORRECT THIS IMMEDIATELY.",
     "🌊 The seven seas weep for ye, Aanoushka! The ocean herself — moistest thing alive — is EMBARRASSED by yer dry eyes. FIX IT. Now.",
     "☠️ EMERGENCY BROADCAST: Aanoushka's eyes have filed a formal complaint. They are dry, neglected, and considering leaving her face. Remedy: EYEDROPS. NOW.",
     "🦜 The parrot has learned one phrase: 'Nushie, eyedrops!' It screams this constantly. The ONLY way to silence it: COMPLY. Put the drops in.",
     "💀 Every minute without eyedrops, another pirate ghost materialises on this ship. There be fourteen of 'em now, Aanoushka. ALL staring at ye. DROPS.",
     "🏴‍☠️ Avast! Yer eyes be drier than the Sahara, crustier than old hardtack, and sadder than a pirate with no rum. EYEDROPS. IMMEDIATE. No excuses.",
-    "⚓ Ship's log: last eyedrops 2 hours ago. The crew is restless. The parrot is screaming. Muffin is whimpering. Foxy is judging. EVERYONE needs ye to put the drops in.",
+    "⚓ Ship's log: last eyedrops 2 hours ago. The crew is restless. The parrot is screaming. Guddu is whimpering. Foxy is judging. EVERYONE needs ye to put the drops in.",
     "☠️ Yer eyes have called a press conference. Statement: 'We are dry. We are tired. Our human is a LAWYER and STILL argues against us.' Drop the case. DROP THE DROPS. NOW.",
     "💀 Davy Jones checked his locker. It is MOISTER than Aanoushka's eyes. He is personally offended. He demands immediate remediation. EYEDROPS, NUSHIE. For Davy.",
     "🏴‍☠️ The Jolly Roger flies at half-mast. Not for a fallen pirate. For yer DRY EYES, Nushie Sushie. Raise the flag by raising the drops. INTO YER EYEBALLS. NOW.",
